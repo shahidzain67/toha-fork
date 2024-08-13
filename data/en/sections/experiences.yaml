@@ -1,73 +1,130 @@
 # section information
 section:
-  name: Experiences
+  name: Work Experience and Education
   id: experiences
   enable: true
-  weight: 3
+  weight: 2
   showOnNavbar: true
+  template: sections/experiences.html
   # Can optionally hide the title in sections
-  # hideTitle: true 
+  # hideTitle: true
 
 # Your experiences
 experiences:
-- company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    logo: /images/sections/experiences/company1.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company1.jpg
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
-  positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+  - company:
+      name: SH:24
+      url: "https://sh24.org.uk/"
+      location: London, UK
+      logo: /images/sections/experiences/sh24-logo.jpg 
+      # company overview
+      overview: I am currently working as a Data Engineer at SH24, a non-profit that provides free and confidential online STI testing and advice and information on sexual, genital and reproductive health in partnership with the NHS 24 hours a day. I have taken ownership of an application stack to ingest, analyse and display Google Analytics data using Databricks to better serve customers. Working with data analysts and domain experts I have prioritised and implemented features, deployed updates, and reviewed/refactored code for deployment. I also use and continue to extend the AWS deployment based on CloudFormation and prototyped API access via Python.
+    positions:
+      - designation: Data Engineer
+        start: September 2023
+        responsibilities: 
+        - Backend/Cloud/Database -  AWS, MySQL, Databricks, Docker, Github CI/CD, Python
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+  - company:
+      name: Brilliant Planet
+      url: "https://www.brilliantplanet.com/"
+      location: Harpenden, UK
+      logo: /images/sections/experiences/bp_logo.jpg
+      # company overview
+      overview: I worked as a Data Engineer / Full Stack Developer at Brilliant Planet, a cleantech start-up. I took ownership of an application stack to ingest, analyse and display complex and heterogeneous lab data. Working with data scientists and domain experts I prioritised and implemented features, deployed updates, and reviewed/refactored code for deployment. I also used and extended the AWS deployment based on CloudFormation and prototyped API access using Lambda/API Gateway.
+    positions:
+      - designation: Data Engineer / Full Stack Developer
+        start: July 2023
+        end: September 2023
+        responsibilities: 
+        - FrontEnd - React/Typescript, Dash
+        - Backend/Cloud/Database - AWS, MySQL, Docker, Gitlab CI/CD, Node
 
-- company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    logo: /images/sections/experiences/company2.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company2.jpg
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+  - company:
+      name: University of Salford
+      url: "https://www.salford.ac.uk/"
+      location: Manchester, UK
+      logo: /images/sections/experiences/uos-logo.jpg
+      # company overview
+      overview: I undertook a PhD at the University of Salford to pursue my interest in engineering applications in medicine. My project titled "Development of an industrial test platform for foot health devices" involved the creation of a robotic system and 3D printed human foot model to test prosthetic and orthotic foot products against clinical standards and provide a test solution for industry. Through this I gained significant experience in outlining a specification to meet the needs of stakeholders and align with cutting edge research, design, develop and validate a product and ultimately deliver a test package to be implemented in industry.
+    positions:
+      - designation: PhD
+        start: September 2019
+        end: September 2023
+        responsibilities: 
+        - Data Processing and Analytics - Python (Pandas), Matlab, Databricks
+        - CAD and Other - Solidworks, Cura, Vicon/Qualisys, Visual3D
 
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    logo: /images/sections/experiences/company3.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company3.jpg
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+  - company:
+      name: Eleven-I
+      url: "https://www.eleven-i.com/"
+      location: Manchester, UK
+      logo: /images/sections/experiences/eleven-i.jpg
+      # company overview
+      overview: Eleven-I is responsible for creating embedded devices for wind turbine management and analysis. I was brought on during my PhD to develop data science and analytics protocols currently in place, to provide further insight into the performance of individual wind turbines.
+    positions:
+      - designation: Data Scientist/Engineer
+        start: March 2023
+        end: June 2023
+        responsibilities: 
+        -  Analytics - Tableau, Grafana, Python (Pandas, Numpy)
+        -  Core technologies - C, C++, Docker, Kubernetes
+
+  - company:
+      name: Codethink Ltd
+      url: "https://www.codethink.co.uk/"
+      location: Manchester, UK
+      logo: /images/sections/experiences/codethink-logo.jpg
+      # company overview
+      overview: Codethink are open source specialists in developing system-level software infrastructure for clients in the electronics, finance, medical and automotive sectors. I completed a 3 month placement with the company within the automotive team. Here I had the opportunity to liaise with clients and contribute to several repositories to document product development and update README's for technical and non-technical users. Additionally, I delivered open-source python based projects to engage with the wider GNOME 
+        community and attended an international GNOME conference.
+    positions:
+      - designation: Software Engineer Internship
+        start: June 2019
+        end: September 2019
+        responsibilities: 
+        -  Core technologies - Python, Git, Linux (GNOME)
+          
+  
+  - company:
+      name: HyperionDev/University of Edinburgh
+      url: "https://www.hyperiondev.com/"
+      location: Manchester, UK
+      logo: /images/sections/experiences/hyp-logo.jpeg
+      # company overview
+      overview: Following my degree, I completed a 3 month intensive Data Science Bootcamp alongside my PhD to further develop my understanding of gold standard data science practices. The course gave me an opportunity to apply my existing Python skills to advanced projects involving data wrangling, cleaning and analysis while also introducing me to core machine learning concepts.
+    positions:
+      - designation: Data Science Bootcamp
+        start: March 2023
+        end: June 2023
+        responsibilities: 
+          - Python for Data Science
+          - Data Analytics and Exploration - MySQL, Pandas, Numpy, Seaborn, Matplotlib, Tableau
+          - Machine Learning and AI - regression, supervised learning, unsupervised learning, neural networks
+
+  - company:
+      name: Yelo Test Systems Ltd
+      url: "https://www.yelo.co.uk/"
+      location: Carrickfergus, Northern Ireland
+      logo: /images/sections/experiences/yelo-logo.jpg
+      # company overview
+      overview: Yelo produces electronics test equipment for the photonics industry. I was offered a scholarship and industrial placement with the company to rotate between electronics, mechanical and software engineering teams. Through my placement I developed Excel macros to wrangle, clean and visualise test results. Additionally, I designed and delivered an autonomous manufacturing tool and organised outreach programs with local schools to introduce students to software engineering and programming.
+    positions:
+      - designation: Applications Engineer Industrial Placement
+        start: June 2017
+        end: September 2018
+        responsibilities: 
+        -  Core technologies - Visual Basic, LabView, C, Arduino 
+
+  - company:
+      name: University of Manchester
+      url: "https://www.manchester.ac.uk/"
+      location: Manchester, UK
+      logo: /images/sections/experiences/manchester-logo.jpeg
+      # company overview
+      overview: I completed my Bachelors of Mechatronic Engineering with an Industrial Placement at the University of Manchester and achieved a thorough education in the underlying theory, concepts, and science behind programming, robotics and electronic engineering. It was here that I discovered my passion for engineering applied in medical, financial and tech sectors, end-to-end application software development, and found that I have a knack for grasping new technologies quickly.
+    positions:
+      - designation: BEng Mechatronic Engineering with an Industrial Placement
+        start: September 2015
+        end: September 2019
+        responsibilities: 
+        -  Embedded systems - C, C++, Machine code, Arduino, Raspberry Pi

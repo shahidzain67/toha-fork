@@ -2,48 +2,47 @@
 section:
   name: Skills
   id: skills
-  enable: true
-  weight: 2
-  showOnNavbar: true
+  enable: false
+  weight: 3
+  showOnNavbar: false
+  template: sections/skills.html
   # Can optionally hide the title in sections
   # hideTitle: true
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+  - name: Linux
+    icon: "/img/linux.png"
+    summary: "Use as a secondary operating system. Capable of writing bash/shell scripts."
 
-- name: Go Development
-  logo: /images/sections/skills/go.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+  - name: Git
+    icon: "/img/git.png"
+    summary: "Experienced with git-based development. Mostly, use Gitlab. Also, have experience in working with GitHub."
+    url: "https://git-scm.com/"
 
-- name: Cloud Computing
-  logo: /images/sections/skills/cloud.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  - name: C++
+    icon: "/img/c++.png"
+    summary: "Have implemented C and C++ programming primarily in conjuction with Arduino projects."
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
+  - name: Python
+    icon: "/img/python.jpeg"
+    summary: "Python-based programming. Used primarily for data analytics and in conjuction with Raspberry Pi projects"
 
-- name: Prometheus
-  logo: /images/sections/skills/prometheus.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
+  - name: Arabic
+    icon: "/img/arabic.jpg"
+    summary: "Basic speaker of Arabic. Primarily studying Modern Standard Arabic."
+    url: "https://letrasconlalechuga.netlify.app/ar/"
 
-- name: Linux
-  logo: /images/sections/skills/linux.png
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  - name: Spanish
+    icon: "/img/spanish.jpg"
+    summary: "Fluent speaker of Spanish with a South American Accent."
+    url: "https://letrasconlalechuga.netlify.app/sp/"
 
-- name: Git
-  logo: /images/sections/skills/git.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+  - name: British Sign Language
+    icon: "/img/BSL.jpg"
+    summary: "Basic signer of BSL and just enjoying getting to grips with it!"
 
-- name: C++
-  logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  - name: Urdu
+    icon: "/img/urdu.jpg"
+    summary: "Conversational speaker of Urdu."

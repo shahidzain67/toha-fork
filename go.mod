@@ -1,4 +1,4 @@
-module github.com/hugo-toha/hugo-toha.github.io
+module github.com/shahidzain67/toha-fork
 
 go 1.21
 
